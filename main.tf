@@ -1,7 +1,7 @@
 /*  PROVIDER
 ===============================================================*/
 provider "aws" {
-  region = var.region
+  region = "ap-south-1"
 }
 
 resource "aws_s3_bucket" "demo-prod-bucket" {
